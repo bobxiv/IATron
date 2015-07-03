@@ -1,0 +1,6 @@
+TRABAJO PRÁCTICO 1
+
+Objetivo: construir un agente inteligente, para comprender como éste se relaciona con el mundo en donde se desenvuelve y comprender cómo utiliza búsqueda para tomar las decisiones sobre las acciones que puede emprender.
+
+Enunciado: Suponga que se desea emular el juego Tron, en el cual Kevin Flynn debe guiar su "light cycle" azul en un recuadro de 10x10 celdas, mientras debe evitar chocarse los muros y los rastros (muros de luz) creados por él mismo y por su oponente. Kevin debe maniobrar rápidamente para forzar a su oponente a chocar contra los muros.
+Cada vez que Kevin realiza un movimiento, su enemigo también lo hace. Kevin y su enemigo solo pueden moverse vertical u horizontalmente. ¿Puedes ayudar a Kevin a vencer a su oponente utilizando búsqueda?

@@ -1,0 +1,34 @@
+Requisitos para correr:
+* Graphviz 2.26 -> Bajar a http://www.graphviz.org
+
+Requisitos para compilar:
+* SFML 1.6 -> Bajar a http://www.sfml-dev.org/
+
+
+Leyenda:
+Circulo Blanc     -> Tron del usuario
+Circulo Azul      -> Tron Agente
+Espacio negro     -> Espacio libre
+Rectangulo blanco -> Estela del usuario
+Rectangulo azul   -> Estela del agente
+Grilla amarilla   -> Marca las divisiones de cada casilla
+
+Teclas:
+
+Flechas: Mueve el tron del usuario en las distintas direciones
+Espacio: Pausa la simulacion(de todas formas es por turnos... pero no recibe los comandos con las teclas)
+P: Imprime el arbol de de busqueda de la ultima buesqueda. Para ejecutar se debe tener Graphviz instalado
+y con los ejecutables en el Path del sistema. Notar que solo se veran los arboles de busqueda despues del primer movimiento
+ya que antes de este no se realizaron ninguna busqueda.
+
+
+Compilar:
+Para compilar hace falta las librerias de SFML 1.6 que es la API grafica que se uso.
+En la carpeta SFML hay una carpeta include con los .h necesarios y en la carpeta
+Libreria Visual Studio 2010 estan los archivos de libreria necesarios, pero estan compilados
+con Visual Studio 2010 y si se usa otro compilador sera necesario hacer la compilacion de la
+libreria, no le envio las compiladas con otros compiladores y para linux solo por motivos no
+no enviarle un archivo tan grande. Si quiere las librerias para linux o compiladas con otro
+compilador no tengo problema en enviarselas, quedo a la espera si necesita alguna. 
+La pagina de la API SFML es:
+http://www.sfml-dev.org/

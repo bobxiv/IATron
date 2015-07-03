@@ -1,0 +1,3 @@
+Para compilar solo: gcc *.cpp -o mundo.bin
+
+O sino correr el makefile en la carpeta con make

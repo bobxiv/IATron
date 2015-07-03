@@ -1,0 +1,15 @@
+graph graphname
+{
+00 [label=P00, color=blue]
+01 [label=P01, color=blue]
+02 [label=P02, color=blue]
+
+10 [label=P10, color=blue]
+11 [label=P11, color=blue]
+
+00 -- 10
+01 -- 10
+
+01 -- 11
+02 -- 11
+}
